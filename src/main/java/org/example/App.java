@@ -5,7 +5,8 @@ import java.net.PasswordAuthentication;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
-import java.util.StringTokenizer; //code smells
+import java.util.Map;
+import java.util.StringTokenizer;
 
 
 public class App {
@@ -17,7 +18,13 @@ public class App {
 
     @Override
     protected Object clone() {
-        return null; //vulnerability
+        return null;
+    }
+
+    public Class vulnerability(Map<String, String> request) throws ClassNotFoundException {
+        String name = request.get("name");
+        Class clazz = Class.forName(name);
+        return clazz;
     }
 
     public PasswordAuthentication hotSpotExample() throws SQLException {
