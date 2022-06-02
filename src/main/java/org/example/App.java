@@ -25,6 +25,11 @@ public class App {
         return conn;
     }
 
+    public Connection vulnerability2(Map<String, String> request) throws SQLException {
+        Connection conn = DriverManager.getConnection("jdbc:derby:memory:myDB;create=true", "login", "");
+        return conn;
+    }
+
     public PasswordAuthentication hotSpotExample() throws SQLException {
         Connection conn = null;
         conn = DriverManager.getConnection("jdbc:mysql://localhost/test?" +
