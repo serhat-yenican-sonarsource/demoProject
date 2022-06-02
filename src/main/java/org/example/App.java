@@ -6,7 +6,6 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.Map;
-import java.util.StringTokenizer;
 
 
 public class App {
@@ -21,10 +20,9 @@ public class App {
         return null;
     }
 
-    public Class vulnerability(Map<String, String> request) throws ClassNotFoundException {
-        String name = request.get("name");
-        Class clazz = Class.forName(name);
-        return clazz;
+    public Connection vulnerability(Map<String, String> request) throws SQLException {
+        Connection conn = DriverManager.getConnection("jdbc:derby:memory:myDB;create=true", "login", "");
+        return conn;
     }
 
     public PasswordAuthentication hotSpotExample() throws SQLException {
