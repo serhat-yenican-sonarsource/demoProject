@@ -12,8 +12,5 @@ public class App {
         return MESSAGE;
     }
 
-    public String getMessage2() {
-        return MESSAGE2;
-    }
 }
 
