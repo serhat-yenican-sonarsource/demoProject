@@ -15,8 +15,8 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
-      <sonar.organization>default-organization</sonar.organization>
-  <sonar.host.url>https://pr-3718-core.sc-dev.io</sonar.host.url>
+    <sonar.organization>serhat-yenican-sonarsource</sonar.organization>
+    <sonar.host.url>https://squad-1-core.sc-dev.io</sonar.host.url>
   </properties>
 
   <dependencies>
