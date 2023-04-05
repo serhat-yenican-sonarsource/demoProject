@@ -16,7 +16,7 @@
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
     <sonar.organization>serhat-personal</sonar.organization>
-    <sonar.host.url>https://squad-5-core.sc-dev.io</sonar.host.url>
+    <sonar.host.url>https://squad-1-core.sc-dev.io</sonar.host.url>
   </properties>
 
   <dependencies>
