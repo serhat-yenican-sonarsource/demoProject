@@ -8,6 +8,10 @@ public class App {
         return MESSAGE + name;
     }
 
+    public String hello222(String name) {
+        return MESSAGE + name;
+    }
+
     public String getMessage() {
         return MESSAGE;
     }
