@@ -1,3 +1,4 @@
+#import "foo.h" // Noncompliant
 #include <stdio.h>
 int main() {
    // printf() displays the string inside quotation
