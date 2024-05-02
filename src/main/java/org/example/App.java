@@ -24,7 +24,7 @@ public class App {
     }
 
     public static String getMessage() {
-        return MESSAGE;
+        return "";
     }
 
     public static String getMessage2() {
