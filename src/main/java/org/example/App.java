@@ -2,10 +2,15 @@ package org.example;
 
 public class App {
     private static final String MESSAGE = "Hello";
-    private static final String MESSAGE1 = "Hello";
-    private static final String secret = "my-secret";
+
+    private static final String MESSAGE1 =
+            "Hello";
+
+    private static final String secret =
+            "my-secret";
     private static final String PASSWORD = "my-password";
     private static final String PASSWORD2 = "my-password";
+
     private static final String PASSWORD3 = "my-password";
     private static final String PASSWORD4 = "my-password";
     private static final String PASSWORD5 = "my-password";
