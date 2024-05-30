@@ -2,6 +2,10 @@ package org.example;
 
 public class App {
     private static final String MESSAGE = "Hello";
+    private static final String MESSAGE22 = "Hello";
+    private static final String MESSAGE222 = "Hello";
+    private static final String MESSAGE332 = "Hello";
+    private static final String MESSAGE123123 = "Hello";
 
     private static final String MESSAGE1 =
             "Hello";
