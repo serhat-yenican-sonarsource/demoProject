@@ -6,8 +6,6 @@ public class App {
     private static final String MESSAGE1 =
             "Hello";
 
-    private static final String secret =
-            "my-secret";
     private static final String secret2 =
             "my-secret";
     private static final String PASSWORD = "my-password";
@@ -23,10 +21,6 @@ public class App {
 
     public String hello(String name) {
         return MESSAGE + name;
-    }
-
-    public static String getMessage() {
-        return "";
     }
 
     public static String getMessage2() {
