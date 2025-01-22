@@ -8,6 +8,8 @@ public class App {
 
     private static final String secret =
             "my-secret";
+    private static final String secret2 =
+            "my-secret";
     private static final String PASSWORD = "my-password";
     private static final String PASSWORD2 = "my-password";
 
