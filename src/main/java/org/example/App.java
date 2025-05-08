@@ -31,10 +31,6 @@ public class App {
         return "";
     }
 
-    public static String getPswd() {
-        return "" + "asd" + "pswd";
-    }
-
     public boolean isValid(String password) {
         return PASSWORD.equals(password);
     }
