@@ -41,8 +41,6 @@ public class App {
         new App().callMyService(MY_SECRET);
     }
 
-
-
     private void callMyService(String mySecret) {
         System.out.println(isValid(mySecret));
     }
