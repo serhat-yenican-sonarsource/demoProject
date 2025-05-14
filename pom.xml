@@ -16,7 +16,7 @@
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
   <sonar.organization>serhat-yenican-sonarsource</sonar.organization>
-  <sonar.host.url>https://dev7.sc-dev7.io</sonar.host.url>
+  <sonar.host.url>https://dev11.sc-dev11.io</sonar.host.url>
     <sonar.sources>src/main/java</sonar.sources>
   </properties>
 
