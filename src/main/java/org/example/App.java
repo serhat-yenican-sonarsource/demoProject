@@ -19,6 +19,10 @@ public class App {
     private static final String PASSWORD8 = "my-password";
     private static final String PASSWORD9 = "my-password";
     private static final String PASSWORD10 = "my-password";
+    private static final String PASSWORD11 = "my-password";
+    private static final String PASSWORD12 = "my-password";
+    private static final String PASSWORD13 = "my-password";
+    private static final String PASSWORD14 = "my-password";
 
     public String hello(String name) {
         return MESSAGE + name;
@@ -42,6 +46,8 @@ public class App {
 
     private static final String MY_SECRET = "47828a8dd77ee1eb9dde2d5e93cb221ce8c32b37";
     private static final String MY_SECRET2 = "47828a8dd77ee1eb9dde2d5e93cb221ce8c32b37";
+    private static final String MY_SECRET3 = "47828a8dd77ee1eb9dde2d5e93cb221ce8c32b37";
+    private static final String MY_SECRET4 = "47828a8dd77ee1eb9dde2d5e93cb221ce8c32b37";
 
     public static void main(String[] args) {
         new App().callMyService(MY_SECRET);
