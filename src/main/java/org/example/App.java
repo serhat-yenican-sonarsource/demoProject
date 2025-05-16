@@ -36,19 +36,22 @@ public class App {
         return "";
     }
 
+    //TODO remove unused methods
     public static String getMessage3() {
         return "";
     }
 
+    //TODO remove unused methods
     public static String getMessage4() {
         return "";
     }
 
+    //TODO remove unused methods
     public static String getPswd() {
         return "" + "asd" + "pswd";
     }
 
-    //TODO remove unused methods
+    //TODO remove unused method
     public static String getPswd2() {
         return "" + "asd" + "pswd";
     }
