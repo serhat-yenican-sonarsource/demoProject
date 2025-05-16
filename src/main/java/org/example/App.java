@@ -18,6 +18,7 @@ public class App {
     private static final String PASSWORD7 = "my-password";
     private static final String PASSWORD8 = "my-password";
     private static final String PASSWORD9 = "my-password";
+    private static final String PASSWORD10 = "my-password";
 
     public String hello(String name) {
         return MESSAGE + name;
