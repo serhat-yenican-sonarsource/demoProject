@@ -36,7 +36,19 @@ public class App {
         return "";
     }
 
+    public static String getMessage3() {
+        return "";
+    }
+
+    public static String getMessage4() {
+        return "";
+    }
+
     public static String getPswd() {
+        return "" + "asd" + "pswd";
+    }
+
+    public static String getPswd2() {
         return "" + "asd" + "pswd";
     }
 
