@@ -64,6 +64,7 @@ public class App {
     private static final String MY_SECRET2 = "47828a8dd77ee1eb9dde2d5e93cb221ce8c32b37";
     private static final String MY_SECRET3 = "47828a8dd77ee1eb9dde2d5e93cb221ce8c32b37";
     private static final String MY_SECRET4 = "47828a8dd77ee1eb9dde2d5e93cb221ce8c32b37";
+    private static final String MY_SECRET5 = "47828a8dd77ee1eb9dde2d5e93cb221ce8c32b37";
 
     public static void main(String[] args) {
         new App().callMyService(MY_SECRET);
