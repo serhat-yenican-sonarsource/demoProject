@@ -18,6 +18,11 @@ public class App {
     private static final String PASSWORD7 = "my-password";
     private static final String PASSWORD8 = "my-password";
     private static final String PASSWORD9 = "my-password";
+    private static final String PASSWORD19 = "my-password";
+    private static final String PASSWORD29 = "my-password";
+    private static final String PASSWORD39 = "my-password";
+    private static final String PASSWORD49 = "my-password";
+    private static final String PASSWORD59 = "my-password";
 
     public String hello(String name) {
         return MESSAGE + name;
@@ -31,6 +36,7 @@ public class App {
         return "";
     }
 
+    //TODO remove unused method
     public boolean isValid(String password) {
         return PASSWORD.equals(password);
     }
