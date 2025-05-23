@@ -18,11 +18,16 @@ public class App {
     private static final String PASSWORD7 = "my-password";
     private static final String PASSWORD8 = "my-password";
     private static final String PASSWORD9 = "my-password";
+    private static final String PASSWORD19 = "my-password";
+    private static final String PASSWORD39 = "my-password";
+    private static final String PASSWORD29 = "my-password";
+    private static float zeroFloat = 0.0f;
 
     public String hello(String name) {
         return MESSAGE + name;
     }
 
+    //TODO remove this
     public static String getMessage() {
         return "";
     }
@@ -40,10 +45,20 @@ public class App {
 
     public static void main(String[] args) {
         new App().callMyService(MY_SECRET);
+        System.out.println(checkZero(10));
+        System.out.println(checkZero(0));
+        String myString = null;
+
+        System.out.println("Equal? " + myString.equals("foo"));                        // Noncompliant; will raise a NPE
+        System.out.println("Equal? " + (myString != null && myString.equals("foo")));  // Noncompliant; null check could be removed
     }
 
     private void callMyService(String mySecret) {
         System.out.println(isValid(mySecret));
+    }
+
+    private static boolean checkZero(int a) {
+        return zeroFloat == 0 && zeroFloat == a;
     }
 }
 
