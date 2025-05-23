@@ -31,6 +31,7 @@ public class App {
         return "";
     }
 
+
     public boolean isValid(String password) {
         return PASSWORD.equals(password);
     }
